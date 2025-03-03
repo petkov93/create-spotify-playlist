@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 load_dotenv()
-
+# replace Spotify client id / secret with yours id/ secret
 spotify_client_id = os.getenv('SPOTIFY_CLIENT_ID')
 spotify_secret = os.getenv('SPOTIFY_SECRET')
 scope = "user-library-read playlist-modify-public"
